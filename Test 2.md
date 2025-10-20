@@ -58,13 +58,13 @@ Yêu cầu chi tiết
 
 - Validate (1 điểm):
 
-  - name: bắt buộc.
+  - `name`: bắt buộc.
 
-  - brand: bắt buộc.
+  - `brand`: bắt buộc.
 
-  - image: là URL hợp lệ.
+  - `image`: là URL hợp lệ.
 
-  - status: chọn từ select (Còn hàng, Hết hàng, Ngừng kinh doanh).
+  - `status`: chọn từ select (Còn hàng, Hết hàng, Ngừng kinh doanh).
 
 5. Chỉnh sửa sản phẩm (2.5 điểm)
 
@@ -78,16 +78,16 @@ Yêu cầu chi tiết
 
 - Đăng ký:
 
-  - email: hợp lệ.
+  - `email`: hợp lệ.
 
-  - password: ≥ 6 ký tự.
+  - `password`: ≥ 6 ký tự.
 
 - Đăng nhập:
 
-  - Kiểm tra email/password đúng → alert thành công.
+  - Kiểm tra `email`/`password` đúng → alert thành công.
 
 Bonus – Bảo vệ truy cập (1 điểm)
 
-- Nếu chưa đăng nhập → chuyển về trang đăng nhập khi truy cập các trang quản trị.
+- Nếu chưa đăng nhập (không có `token` trong `localStorage`) → chuyển về trang đăng nhập khi truy cập các trang quản trị.
 
 - Lưu token vào localStorage khi đăng nhập.
