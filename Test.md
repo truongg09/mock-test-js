@@ -61,13 +61,13 @@ Yêu cầu chi tiết
 
 - Validate (1 điểm):
 
-  - title: bắt buộc.
+  - `title`: bắt buộc.
 
-  - instructor: bắt buộc.
+  - `instructor`: bắt buộc.
 
-  - image: là URL hợp lệ.
+  - `image`: là URL hợp lệ.
 
-  - status: chọn từ select (Đang mở đăng ký, Đang học, Đã hoàn thành).
+  - `status`: chọn từ select (Đang mở đăng ký, Đang học, Đã hoàn thành).
 
 5. Chỉnh sửa khóa học (2.5 điểm)
 
@@ -81,13 +81,13 @@ Yêu cầu chi tiết
 
 - Đăng ký:
 
-  - email: định dạng hợp lệ.
+  - `email`: định dạng hợp lệ.
 
-  - password: ≥ 6 ký tự.
+  - `password`: ≥ 6 ký tự.
 
 - Đăng nhập:
 
-  - Đúng email/password → alert đăng nhập thành công.
+  - Đúng `email`/`password` → alert đăng nhập thành công.
 
 Bonus – Bảo vệ truy cập (1 điểm)
 
