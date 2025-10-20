@@ -37,13 +37,13 @@ Yêu cầu chi tiết
 
 - Hiển thị bằng card hoặc bảng gồm:
 
-- Tên khóa học (title)
+  - Tên khóa học (title)
 
-- Giảng viên (instructor)
+  - Giảng viên (instructor)
 
-- Ảnh khóa học (image)
+  - Ảnh khóa học (image)
 
-- Trạng thái (status)
+  - Trạng thái (status)
 
 - Mỗi khóa học có nút Sửa, Xóa.
 
