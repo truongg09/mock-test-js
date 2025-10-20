@@ -27,72 +27,72 @@ Yêu cầu chi tiết
 
 1. Giao diện & Điều hướng (1 điểm)
 
-Navbar: Trang chủ, Thêm khóa học, Đăng nhập / Đăng ký.
+- Navbar: Trang chủ, Thêm khóa học, Đăng nhập / Đăng ký.
 
-Giao diện responsive, rõ ràng.
+- Giao diện responsive, rõ ràng.
 
 2. Hiển thị danh sách khóa học (1 điểm)
 
-Gọi GET /courses để hiển thị danh sách.
+- Gọi GET /courses để hiển thị danh sách.
 
-Hiển thị bằng card hoặc bảng gồm:
+- Hiển thị bằng card hoặc bảng gồm:
 
-Tên khóa học (title)
+- Tên khóa học (title)
 
-Giảng viên (instructor)
+- Giảng viên (instructor)
 
-Ảnh khóa học (image)
+- Ảnh khóa học (image)
 
-Trạng thái (status)
+- Trạng thái (status)
 
-Mỗi khóa học có nút Sửa, Xóa.
+- Mỗi khóa học có nút Sửa, Xóa.
 
 3. Xóa khóa học (1 điểm)
 
-Có confirm() trước khi xóa.
+- Có confirm() trước khi xóa.
 
-Gọi DELETE /courses/:id → cập nhật lại danh sách.
+- Gọi DELETE /courses/:id → cập nhật lại danh sách.
 
 4. Thêm khóa học (2.5 điểm)
 
-Form thêm khóa học mới.
+- Form thêm khóa học mới.
 
-Gọi POST /courses thành công → alert + quay về danh sách.
+- Gọi POST /courses thành công → alert + quay về danh sách.
 
-Validate (1 điểm):
+- Validate (1 điểm):
 
-title: bắt buộc.
+  - title: bắt buộc.
 
-instructor: bắt buộc.
+  - instructor: bắt buộc.
 
-image: là URL hợp lệ.
+  - image: là URL hợp lệ.
 
-status: chọn từ select (Đang mở đăng ký, Đang học, Đã hoàn thành).
+  - status: chọn từ select (Đang mở đăng ký, Đang học, Đã hoàn thành).
 
 5. Chỉnh sửa khóa học (2.5 điểm)
 
-GET /courses/:id để tải dữ liệu ban đầu.
+- GET /courses/:id để tải dữ liệu ban đầu.
 
-Sửa xong gọi PUT /courses/:id → alert + điều hướng về danh sách.
+- Sửa xong gọi PUT /courses/:id → alert + điều hướng về danh sách.
 
-Validate tương tự form thêm.
+- Validate tương tự form thêm.
 
 6. Đăng ký & Đăng nhập (1 điểm)
 
-Đăng ký:
+- Đăng ký:
 
-email: định dạng hợp lệ.
+  - email: định dạng hợp lệ.
 
-password: ≥ 6 ký tự.
+  - password: ≥ 6 ký tự.
 
-Đăng nhập:
+- Đăng nhập:
 
-Đúng email/password → alert đăng nhập thành công.
+  - Đúng email/password → alert đăng nhập thành công.
 
 Bonus – Bảo vệ truy cập (1 điểm)
 
-Nếu chưa có token trong localStorage → tự động chuyển về trang đăng nhập khi truy cập trang quản lý, thêm/sửa.
+- Nếu chưa có token trong localStorage → tự động chuyển về trang đăng nhập khi truy cập trang quản lý, thêm/sửa.
 
-Khi đăng nhập thành công → lưu token.
+- Khi đăng nhập thành công → lưu token.
 
 
