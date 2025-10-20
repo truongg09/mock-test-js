@@ -93,6 +93,6 @@ Bonus – Bảo vệ truy cập (1 điểm)
 
 - Nếu chưa đăng nhập (không có `token` trong `localStorage`) → tự động chuyển về trang đăng nhập khi truy cập trang quản lý, thêm/sửa.
 
-- Khi đăng nhập thành công → lưu token.
+- Nếu đăng nhập → lưu token vào `localStorage`.
 
 
