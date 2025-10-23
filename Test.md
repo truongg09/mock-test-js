@@ -2,20 +2,20 @@ Dữ liệu:
 
 ```json
 {
-  "events": [
+  "courses": [
     {
       "id": 1,
-      "title": "Workshop AI4Life 2025",
-      "location": "Hà Nội",
-      "image": "https://picsum.photos/id/1015/300/200",
-      "status": "Sắp diễn ra"
+      "title": "Lập trình Web Fullstack",
+      "instructor": "Nguyễn Văn A",
+      "image": "https://picsum.photos/id/1020/300/200",
+      "status": "Đang mở đăng ký"
     },
     {
       "id": 2,
-      "title": "FPT Hackathon",
-      "location": "Đà Nẵng",
-      "image": "https://picsum.photos/id/1018/300/200",
-      "status": "Đã kết thúc"
+      "title": "Thiết kế UI/UX cơ bản",
+      "instructor": "Trần Thị B",
+      "image": "https://picsum.photos/id/1021/300/200",
+      "status": "Đã hoàn thành"
     }
   ],
   "users": []
